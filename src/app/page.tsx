@@ -1,11 +1,11 @@
 "use client"
 
 import { useState } from 'react';
-import { FISimulationForm } from '@/components/FISimulationForm';
-import { FIProjectionDisplay } from '@/components/FIProjectionDisplay';
-import { CalculationExplanation } from '@/components/CalculationExplanation';
-import { EducationalDisclaimer } from '@/components/EducationalDisclaimer';
-import { calculateFIProjection, FIProjectionResult } from '@/lib/fi-projection-calculator';
+import { FISimulationForm } from '../../components/FISimulationForm';
+import { FIProjectionDisplay } from '../../components/FIProjectionDisplay';
+import { CalculationExplanation } from '../../components/CalculationExplanation';
+import { EducationalDisclaimer } from '../../components/EducationalDisclaimer';
+import { calculateFIProjection, FIProjectionResult } from '../../lib/fi-projection-calculator';
 import { z } from 'zod';
 
 const formSchema = z.object({
